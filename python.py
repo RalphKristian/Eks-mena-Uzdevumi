@@ -48,7 +48,7 @@
 # print(funkcija(5, 23))
 
 
-# 7. Ievadīti trīs skaitļi. No &scaron;iem trim skaitļiem 
+# 7. Ievadīti trīs skaitļi. No &scaron;iem trim skaitļiem !!!
 # saskaitīt tikai pāra skaitļus.
 
 
