@@ -73,30 +73,117 @@
 # 9. Divciparu skaitlis. Samainīt vietām skaitļa ciparus
 # un saskaitīt ar sākotnējo skaitli. (ievada 15 -&gt; 15 + 51 = 66)
 
+# l = 15
+# l1_end = int(str(l)[::-1]) + l
+# print(l1_end)
 
+# n = [23] #liste
+# n_reversed = int(str(n[0])[::-1])
+# end = int(n_reversed + n[0])
+# print(end)
 
 # 10. Programma, kas izvada visus nenegatīvos skaitļus, kas mazāki par 10!
 
+# n = [31, -2, 1, 5, 31, 1, -3, 31, 30, 4, 30, -2, -34]
+# l1 = [i for i in n if i < -10]
+# print(l1)
+
 # 11. Ievada piecus skaitļus un izvada to summu un vidējo vērtību.
+
+# numberss = input("Pieci skaitļi: ")
+# numbers = [int(n) for n in numberss]
+# n_sum = sum(numbers)
+# vid = int(n_sum / len(numbers))
+# print(n_sum, vid)
 
 # 12. Lietotājs ievada, cik skaitļi tiks ievadīti,
 #     skaitļus ievada, izvada vidējo vērtību.
 
+# numberss = input("Skaitļi: ")
+# numbers = [int(n) for n in numberss]
+# n_sum = sum(numbers)
+# vid = int(n_sum / len(numbers))
+# print(vid)
+
 # 13. Visi skaitļi no 1 līdz 100, izvada tikai tos, kas dalās ar 3 un 8.
 
+# def funkcija():
+#     l1 = []
+#     for i in range(1, 101, 1):
+#         if i % 3 == 0 or i % 8 == 0:
+#             l1.append(i)
+#     return l1
+# print(funkcija())
+
 # 14. Programma, kas izvada n x n kvadrātu no &quot;*&quot; simboliem.
+# n = 20
+# for i in range(n):
+#     for j in range(n):
+#         print("*", end="")
+#     print()
 
 # 15. Eglīte no simboliem &quot;*&quot; augstumā n.
 
+# def draw_tree(height):
+#   for i in range(1, height + 1):
+#     for j in range(height - i):
+#       print(" ", end="")
+#     for j in range(2 * i - 1):
+#       print("*", end="")
+#     print()
+# draw_tree(10)
+
 # 16. While cikls. Ievadīt skaitļus līdz ievada 0. Izvadīt skaitļu summu.
+
+# l1 = []
+# while True:
+#     q = int(input("sk: "))
+#     if q == 0:
+#         break
+#     l1.append(q)
+# l2 = sum(l1)
+# print(l2)
+    
 
 # 17. Izvadīt visus skaitļus no 1 līdz n. Izmantot while ciklu
 
+# n = 14
+# i = 0
+# while i <= n:
+#     print(i)
+#     i += 1
+
 # 18. Programma, kas izvada pirmos n kvadrātus! (1, 4, 9, 36...)
+
+# l1 = []
+# n = 10
+# for i in range(1, n):
+#     l1.append(i**2)
+# print(l1)
+
+# n = 10
+# i = 0
+# while i <= n:
+#     print(i*i)
+#     i += 1
 
 # 19. Programma, kas izvada visus kvadrātus, kas mazāki par n.
 
+# n = 10
+# i = 0
+# while i**2 < n:
+#     print(i*i)
+#     i += 1
+
 # 20. Ievada n. Programma, kas izvada visus skaitļus no n līdz 2n.
+
+# q = int(input("Skaitlis: "))
+# l1 = []
+# for i in range(q, 2*q + 1):
+#     l1.append(i)
+# for num in l1:
+#     print(num, end=' ')
+
 
 # 21. Programma, kas saskaita visus skaitļus no 1 līdz 100.
 
