@@ -51,13 +51,29 @@
 # 7. Ievadīti trīs skaitļi. No &scaron;iem trim skaitļiem !!!
 # saskaitīt tikai pāra skaitļus.
 
+# l = [31, 28, 31]
+# l1 = [i for i in l if i % 2 == 0]
+# s = sum(l1)
+# print(s)
 
 
 # 8. Divi skaitļi a, b. Programma aprēķina atbilsto&scaron;ā
 #  taisnstūra perimetru un laukumu.
 
+# def Perimetrs(a, b):
+#     return 2 * (a + b)
+
+# print(Perimetrs(5, 10))
+
+# def Laukums(a, b):
+#     return a * b
+
+# print(Laukums(5, 10))
+
 # 9. Divciparu skaitlis. Samainīt vietām skaitļa ciparus
 # un saskaitīt ar sākotnējo skaitli. (ievada 15 -&gt; 15 + 51 = 66)
+
+
 
 # 10. Programma, kas izvada visus nenegatīvos skaitļus, kas mazāki par 10!
 
